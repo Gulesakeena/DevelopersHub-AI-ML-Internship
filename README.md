@@ -1,6 +1,6 @@
 # DevelopersHub AI/ML Engineering Internship Tasks
 
-This repository contains the AI/ML internship tasks completed as part of the DevelopersHub Corporation AI/ML Engineering Internship Program.
+This repository contains the AI/ML internship tasks completed as part of the DevelopersHub Corporation AI/ML Engineering Internship Program. The projects focus on data analysis, visualization, classification, and regression techniques using real-world datasets and machine learning models.
 
 ## Tools and Technologies
 
@@ -19,7 +19,7 @@ This repository contains the AI/ML internship tasks completed as part of the Dev
 
 ## Objective
 
-The objective of this task was to explore, analyze, and visualize the Iris dataset to understand feature distributions, relationships between variables, and potential patterns within the data.
+The objective of this task was to explore, analyze, and visualize the Iris dataset to understand feature distributions, relationships between variables, and patterns among different flower species.
 
 ## Dataset
 
@@ -29,15 +29,24 @@ Iris Dataset
 
 * Loaded and inspected the dataset using Pandas.
 * Analyzed dataset structure and summary statistics.
-* Generated scatter plots to explore relationships between features.
-* Created histograms to visualize data distributions.
-* Used box plots to identify data spread and potential outliers.
+* Used `.info()` and `.describe()` for data exploration.
+* Generated scatter plots to study relationships between features.
+* Created histograms to visualize feature distributions.
+* Used box plots to identify variation and potential outliers.
 
 ## Key Findings
 
-* The dataset contains 150 flower samples belonging to three species.
+* The dataset contains 150 flower samples and 5 attributes.
+* Three flower species are included: Setosa, Versicolor, and Virginica.
 * Petal-related features provide strong separation between species.
-* Visualizations helped identify clear patterns and distributions within the dataset.
+* Visualizations revealed clear patterns and distributions within the dataset.
+
+## Skills Demonstrated
+
+* Data Loading and Exploration
+* Descriptive Statistics
+* Data Visualization
+* Exploratory Data Analysis (EDA)
 
 ---
 
@@ -53,21 +62,21 @@ Heart Disease UCI Dataset
 
 ## Data Preprocessing
 
-* Handled missing values using appropriate statistical techniques.
-* Converted categorical variables into numerical format using Label Encoding.
+* Handled missing values using statistical techniques.
+* Converted categorical variables into numerical values using Label Encoding.
 * Created a binary target variable for classification.
-* Prepared the dataset for machine learning model training and evaluation.
+* Prepared data for machine learning model training and testing.
 
 ## Exploratory Data Analysis (EDA)
 
 * Analyzed feature distributions and patient characteristics.
-* Visualized target class distribution.
-* Examined correlations between medical attributes.
-* Identified important features influencing prediction.
+* Visualized heart disease class distribution.
+* Examined correlations among medical attributes.
+* Investigated factors influencing heart disease prediction.
 
 ## Model Used
 
-Logistic Regression
+* Logistic Regression
 
 ## Evaluation Metrics
 
@@ -86,11 +95,75 @@ Logistic Regression
 
 ## Conclusion
 
-The Logistic Regression model demonstrated strong predictive performance in identifying heart disease risk. With an accuracy of 79.89% and a ROC-AUC score of 87%, the model showed a good ability to distinguish between patients with and without heart disease. The project highlights the practical application of machine learning in healthcare analytics and risk assessment.
+The Logistic Regression model demonstrated strong predictive performance in identifying heart disease risk. With an accuracy of 79.89% and a ROC-AUC score of 87%, the model effectively distinguished between patients with and without heart disease. This project highlights the practical application of machine learning in healthcare analytics and disease risk assessment.
+
+## Skills Demonstrated
+
+* Binary Classification
+* Data Preprocessing
+* Healthcare Data Analysis
+* Model Evaluation
+* Feature Analysis
 
 ---
 
-## Repository Structure
+# Task 6: House Price Prediction
+
+## Objective
+
+The objective of this project was to predict house prices using property-related features such as area, bedrooms, bathrooms, stories, parking availability, and furnishing status.
+
+## Dataset
+
+House Price Prediction Dataset
+
+## Data Preprocessing
+
+* Checked and verified dataset quality.
+* Encoded categorical variables using Label Encoding.
+* Prepared numerical and categorical features for training.
+* Split the dataset into training and testing sets.
+
+## Exploratory Data Analysis (EDA)
+
+* Examined the distribution of house prices.
+* Analyzed relationships between property features and price.
+* Visualized feature correlations using heatmaps.
+* Investigated influential factors affecting house prices.
+
+## Model Used
+
+* Linear Regression
+
+## Evaluation Metrics
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+## Results
+
+| Metric                         | Value     |
+| ------------------------------ | --------- |
+| Mean Absolute Error (MAE)      | 979,680   |
+| Root Mean Squared Error (RMSE) | 1,331,071 |
+| R² Score                       | 0.65      |
+
+## Conclusion
+
+A Linear Regression model was developed to estimate house prices based on property characteristics. The model achieved an R² score of 0.65, indicating that approximately 65% of the variation in house prices was explained by the selected features. Property area, parking availability, air conditioning, and furnishing status were among the most influential factors affecting price predictions. The model demonstrated reasonable predictive performance and provides a solid baseline solution for real estate price estimation.
+
+## Skills Demonstrated
+
+* Regression Modeling
+* Feature Engineering
+* Data Preprocessing
+* Model Evaluation
+* Real Estate Data Analysis
+
+---
+
+# Repository Structure
 
 DevelopersHub-AI-ML-Internship
 
@@ -98,11 +171,13 @@ DevelopersHub-AI-ML-Internship
 
 ├── Task3_Heart_Disease_Prediction.ipynb
 
+├── Task6_House_Price_Prediction.ipynb
+
 └── README.md
 
 ---
 
-## Author
+# Author
 
 AI/ML Engineering Internship Project
 
