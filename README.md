@@ -50,6 +50,45 @@ Iris Dataset
 
 ---
 
+# Task 2: Stock Price Prediction
+
+## Objective
+
+The objective of this task was to predict the next-day stock closing price using historical stock market data.
+
+## Dataset
+
+Yahoo Finance (AAPL Stock Data)
+
+## Model Used
+
+Linear Regression
+
+## Features
+
+* Open
+* High
+* Low
+* Volume
+
+## Target
+
+* Close Price
+
+## Evaluation Metrics
+
+* Mean Absolute Error (MAE): 0.74
+* Root Mean Squared Error (RMSE): 0.99
+* R² Score: 0.99
+
+## Key Findings
+
+* The model achieved very high accuracy in short-term prediction.
+* Stock prices showed strong correlation with historical values.
+* Linear Regression performed well for this regression task.
+
+---
+
 # Task 3: Heart Disease Prediction
 
 ## Objective
@@ -168,6 +207,8 @@ A Linear Regression model was developed to estimate house prices based on proper
 DevelopersHub-AI-ML-Internship
 
 ├── Task1_Iris_Visualization.ipynb
+
+├── Task2_Stock_Price_Prediction.ipynb
 
 ├── Task3_Heart_Disease_Prediction.ipynb
 
